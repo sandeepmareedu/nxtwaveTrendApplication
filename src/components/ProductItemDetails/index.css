@@ -1,0 +1,116 @@
+/* Write your CSS here */
+.productItemDetailsCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.productItemDetailsImg {
+  width: 50%;
+  height: 550px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.mainProductDetails {
+  display: flex;
+  width: 80%;
+}
+.productItemDetailsHead {
+  font-size: 42px;
+  font-weight: 600;
+  color: #475569;
+  margin-top: 0px;
+}
+.price {
+  font-size: 24px;
+}
+.ratingCon {
+  background-color: #3b82f6;
+  border-radius: 5px;
+  width: 60px;
+  height: 25px;
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.star {
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+.productItemDetailsReviewsCon {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.reviews {
+  font-size: 13px;
+  font-weight: 700;
+}
+.subHead {
+  font-weight: 700;
+  margin: 0px;
+  margin-right: 10px;
+  color: black;
+}
+.des {
+  font-size: 15px;
+  color: #616e7c;
+  margin-top: 10px;
+}
+.line {
+  width: 100%;
+  margin: 0px;
+}
+.available {
+  color: #616e7c;
+}
+.incDec {
+  background-color: transparent;
+  border: none;
+  display: flex;
+}
+.itemsCount {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+.bsIcon {
+  font-size: 15px;
+}
+.itemsNum {
+  font-weight: 600;
+  font-size: 24px;
+  color: #171f46;
+}
+.addToCart {
+  background-color: #3b82f6;
+  height: 30px;
+  width: 100px;
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+}
+.productItemDetailsSubCon {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.similarProductListCon {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0px;
+}
+.similarProductsTitle {
+  align-self: flex-start;
+}
+.similarProductsCon {
+  width: 80%;
+}
+.failureView{
+  width: 300px;
+}

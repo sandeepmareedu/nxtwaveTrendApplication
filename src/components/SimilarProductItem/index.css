@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.similarProductImg {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 5px;
+}
+.similarProductHead {
+  font-size: 16px;
+}
+.similarProductListItem {
+  margin-right: 10px;
+  padding: 10px;
+}
+.similarProductRatingCon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.similarProductItemCon {
+  margin-right: 20px;
+}
